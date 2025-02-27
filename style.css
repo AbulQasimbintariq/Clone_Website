@@ -140,8 +140,11 @@
 
 }
 .hero_section{
-    height: 500px;
-    background-size: cover;
+    background-color: #abeefa;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 1rem 0;
     background-image: url(/herosection.avif);
     display: flex;
     align-items: end;
@@ -151,11 +154,13 @@
 .hero_msg{
     background-color:azure;
     width: 90%;
-    height: 40px;
+    /* height: 40px; */
+    padding: 4px;
     color: rgb(93, 86, 86);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-size: 1.1rem;
 }
 .hero_msg a{
@@ -168,9 +173,7 @@
     justify-content: space-evenly;  
 }
 .BOX {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+  
     margin-top: 15px;
     background-color: white;
     width: 250px;
@@ -231,11 +234,12 @@ footer{
     text-decoration: none;
 }
 .foot_pan1{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color:rgb(50, 66, 79) ;
-    height: 400px;
+    padding: 2rem;
 }
 .foot_cont{
     width: 150px;
